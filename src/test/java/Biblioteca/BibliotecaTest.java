@@ -31,7 +31,7 @@ class BibliotecaTest {
     void eliminarLibro() {
         boolean eliminado = biblioteca.eliminarLibro(lib2);
         assertTrue(eliminado, "el libro ha sido eliminado");
-        assertFalse(biblioteca.getLibros().contains(lib2), "LA LISTA DE LIBROS NO DEBE CONTENER EL LIBRO ELIMINADO");
+        assertFalse(biblioteca.getLibros().contains(lib2), "libro no existente en la lista de libros");
     }
 
 
