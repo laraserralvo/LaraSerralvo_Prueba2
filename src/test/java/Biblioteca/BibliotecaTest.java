@@ -62,7 +62,7 @@ class BibliotecaTest {
         biblioteca.agregarLibro(new Libro("La novia gitana", "Carmen Mola", 1937));
         List<Libro> listaLibros = biblioteca.encuentraLibrosPorAutor("Carmen Mola");
         assertNotNull(listaLibros, "devuelve lista de libros existentes del autor");
-        assertEquals(2, listaLibros.size(), "el autor debe tener un solo libro en la biblioteca");
+        assertEquals(1, listaLibros.size(), "el autor debe tener un solo libro en la biblioteca");
 
 
         List<Libro> listaInexistente = biblioteca.encuentraLibrosPorAutor("el autor no existe");
