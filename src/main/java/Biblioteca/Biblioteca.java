@@ -56,7 +56,7 @@ public class Biblioteca {
     /**
      * Busca un libro por su título.
      * @param titulo del lirbo a buscar.
-     * @return Libro encontrado .
+     * @return libro encontrado
      */
     //  Test 01: buscar libro existente y comprobar que lo localiza.
     //  Test 02: buscar libro NO existente y comprobar que no lo localiza.
