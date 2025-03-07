@@ -16,7 +16,7 @@ class LibroTest {
     @Test
     void getTitulo() {
         System.out.println("el título es 'Marina");
-        assertEquals("El Hobbit", lib.getTitulo(), "el título es 'Marina");
+        assertEquals("Marina", lib.getTitulo(), "el título es 'Marina");
     }
 
     @Test
